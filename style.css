@@ -56,7 +56,7 @@ p {
 section {
   width: 85%;
   max-width: 650px;
-  height: 95%;
+  height: 100%;
   background-color: hsl(0, 0%, 8%);
   border-radius: 15px;
   display: flex;
