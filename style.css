@@ -65,11 +65,12 @@ section {
   align-items: center;
 }
 a {
+  box-sizing: border-box;
   text-decoration: none;
   margin-bottom: 2rem;
   padding-top: 0.5rem;
   width: 80%;
-  height: 30px;
+  height: 40px;
   background-color: rgb(31, 31, 31);
   border-radius: 5px;
   color: rgb(255, 255, 255);
