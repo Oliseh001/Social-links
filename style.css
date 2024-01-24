@@ -55,8 +55,8 @@ p {
 }
 section {
   width: 85%;
-  max-width: 700px;
-  height: 90%;
+  max-width: 650px;
+  height: 95%;
   background-color: hsl(0, 0%, 8%);
   border-radius: 15px;
   display: flex;
@@ -64,7 +64,7 @@ section {
   justify-content: center;
   align-items: center;
 }
-section > a {
+a {
   text-decoration: none;
   margin-bottom: 2rem;
   padding-top: 0.5rem;
