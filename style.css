@@ -1,21 +1,22 @@
 @font-face {
   font-family: "Inter";
-  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf),
-    url("/assets/fonts/static/Inter-Regular.ttf");
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf"),
+    url("./assets/fonts/static/Inter-Regular.ttf");
   font-weight: 400;
 }
 @font-face {
   font-family: "Inter";
-  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf),
-    url("/assets/fonts/static/Inter-SemiBold.ttf");
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf"),
+    url("./assets/fonts/static/Inter-SemiBold.ttf");
   font-weight: 600;
 }
 @font-face {
   font-family: "Inter";
-  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf),
-    url("/assets/fonts/static/Inter-Bold.ttf");
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf"),
+    url("./assets/fonts/static/Inter-Bold.ttf");
   font-weight: 700;
 }
+
 html {
   font-size: 15px;
   font-family: "Inter";
@@ -53,7 +54,7 @@ p {
 section {
   width: 60%;
   max-width: 600px;
-  height: 90%;
+  height: 70%;
   background-color: hsl(0, 0%, 8%);
   border-radius: 15px;
   display: flex;
@@ -77,10 +78,6 @@ section > a:hover {
   background-color: hsl(75, 94%, 57%);
   transition: all 0.3s ease-in-out;
   color: hsl(0, 0%, 8%);
-  font-weight: 700;
-}
-section > a :active {
-  background-color: hsl(75, 94%, 57%);
-  color: hsl(0, 0%, 8%);
+  font-size: 1.1rem;
   font-weight: 700;
 }
